@@ -81,7 +81,7 @@ namespace ConsoleApp1
 
         public bool GetAndValidateGroupNo(string groupNo)
         {
-            return ValidateLength(groupNo) && IsUpper(groupNo);
+            return ValidateLength(groupNo) && IsFirstAndSecondLetterUpper(groupNo);
         }
 
         public bool ValidateLength(string word)
