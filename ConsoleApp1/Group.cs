@@ -92,7 +92,7 @@ namespace ConsoleApp1
                 return false;
         }
 
-        public bool IsUpper(string word)
+        public bool IsFirstAndSecondLetterUpper(string word)
         {
             char[] upperCaseLetters = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
                             'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
